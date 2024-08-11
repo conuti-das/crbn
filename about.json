@@ -3,8 +3,8 @@
   "about_url": "https://github.com/conuti-das/crbn",
   "license_url": "https://github.com/conuti-das/crbn/blob/main/LICENSE",
   "assets": {
-    "ibmplexserif-reg": "assets/IBMPlexSerif-Regular.ttf",
-    "ibmplexserif-bold": "assets/IBMPlexSerif-Bold.ttf"
+    "ibmplexsans-reg": "assets/IBMPlexSans-Regular.ttf",
+    "ibmplexsans-bold": "assets/IBMPlexSans-Bold.ttf"
   },
   "color_schemes": {}
 }
