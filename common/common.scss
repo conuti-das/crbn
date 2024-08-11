@@ -13,7 +13,7 @@
 
 html {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 16px;
+  font-size: 16px; // Basisgröße
 }
 
 h1,
@@ -23,6 +23,65 @@ h4,
 h5,
 h6 {
   font-family: "IBM Plex Sans", sans-serif;
+}
+
+// IBM Standard Font Sizes
+$font-size-base: 16px;
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: $font-size-base;
+$font-size-lg: 20px;
+$font-size-xl: 24px;
+$font-size-xxl: 32px;
+$font-size-xxxl: 42px;
+
+body {
+  font-size: $font-size-md; // 16px
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: $font-size-xxxl; // 42px
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: $font-size-xxl; // 32px
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: $font-size-xl; // 24px
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: $font-size-lg; // 20px
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: $font-size-md; // 16px
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: $font-size-sm; // 14px
+  line-height: 1.6;
+}
+
+p,
+li,
+a {
+  font-size: $font-size-md; // 16px
+}
+
+.small-text {
+  font-size: $font-size-xs; // 12px
+}
+
+.button {
+  font-size: $font-size-sm; // 14px
 }
 
 // Adjusted for Carbon Design colors
@@ -102,7 +161,7 @@ tbody {
 // Navs
 
 .category-breadcrumb .combo-box .combo-box-header {
-  font-size: 1.15em;
+  font-size: $font-size-lg; // 20px
 }
 
 .list-controls {
@@ -165,7 +224,7 @@ tbody {
   }
 
   .byline {
-    font-size: 0.875em;
+    font-size: $font-size-sm; // 14px
     margin-bottom: 5px;
     a {
       color: $primary-high;
@@ -179,7 +238,7 @@ tbody {
 
   a.title {
     display: inline-flex;
-    font-size: 1.5em;
+    font-size: $font-size-xl; // 24px
     max-width: 750px;
     line-height: 1.2;
     padding: 0;
@@ -230,7 +289,7 @@ span.latest-poster a {
 
 .topic-statuses {
   .topic-status {
-    font-size: $font-down-1;
+    font-size: $font-size-sm; // 14px
   }
   .d-icon-bookmark {
     color: $tertiary;
@@ -266,7 +325,7 @@ span.latest-poster a {
 }
 
 .topic-post .cooked {
-  font-size: $font-up-1;
+  font-size: $font-size-md; // 16px
   line-height: 1.5;
 }
 
@@ -366,7 +425,7 @@ span.latest-poster a {
 }
 
 .more-topics-title {
-  font-size: $font-up-2;
+  font-size: $font-size-lg; // 20px
 }
 
 .timeline-container .topic-timeline .timeline-footer-controls {
@@ -439,19 +498,19 @@ span.latest-poster a {
 
 .topic-body {
   line-height: 1.625;
-  font-size: $font-up-1;
+  font-size: $font-size-md; // 16px
 }
 
 .topic-body .topic-link {
-  font-size: $font-up-1;
+  font-size: $font-size-md; // 16px
 }
 
 .reply-to-tab {
   .topic-avatar {
-    font-size: $font-down-2;
+    font-size: $font-size-xs; // 12px
   }
   .tab-title {
-    font-size: $font-down-1;
+    font-size: $font-size-sm; // 14px
   }
 }
 
@@ -459,7 +518,7 @@ span.latest-poster a {
   .reply-to-tab .tab-title {
     display: flex;
     align-items: center;
-    font-size: $font-down-2;
+    font-size: $font-size-xs; // 12px
   }
 }
 
