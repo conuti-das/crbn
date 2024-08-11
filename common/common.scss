@@ -1,18 +1,18 @@
 @font-face {
-  font-family: "IBM Plex Serif";
-  src: url($ibmplexserif-reg);
+  font-family: "IBM Plex Sans";
+  src: url($ibmplexsans-reg);
 }
 
 @font-face {
-  font-family: "IBM Plex Serif";
-  src: url($ibmplexserif-bold);
+  font-family: "IBM Plex Sans";
+  src: url($ibmplexsans-bold);
   font-weight: bold;
 }
 
 // Global styles
 
 html {
-  font-family: "IBM Plex Serif", serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "IBM Plex Serif", serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 // Adjusted for Carbon Design colors
