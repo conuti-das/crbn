@@ -554,18 +554,18 @@ span.latest-poster a {
     --cds-layout-density-padding-inline-local: clamp(var(--cds-layout-density-padding-inline-min), var(--cds-layout-density-padding-inline, var(--cds-layout-density-padding-inline-normal)), var(--cds-layout-density-padding-inline-max));
     position: relative;
     display: block;
-    padding: var(--cds-layout-density-padding-inline-local);
     background-color: var(--cds-layer);
     min-block-size: 4rem;
     min-inline-size: 8rem;
-    outline: 2px solid transparent;
-    outline-offset: -2px;  
+    outline: 0px solid transparent;
+    outline-offset: 0px;  
     background-color: var(--primary-low);  
     box-shadow: 0px;
+    border: 0px;
 }
 
 .docs-card-box h3 {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.3;
 }
 
