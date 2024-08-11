@@ -580,7 +580,8 @@ font-size: var(--cds-heading-compact-01-font-size, 0.875rem);
 .discourse-tag {
     border-width: 1px;
     border-style: solid;
-    border-color: var(--cds-button-tertiary, #0f62fe);
-    background-color: transparent;
-    color: var(--cds-button-tertiary, #0f62fe);
+    border-color: transparent;
+    background-color: var(--cds-button-secondary, #393939);
+    color: var(--cds-text-on-color, #ffffff);
+    font-size: 12px;
 }
