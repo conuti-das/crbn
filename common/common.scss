@@ -536,3 +536,36 @@ span.latest-poster a {
   margin-top: 1px;
   right: -2px;
 }
+
+
+.docs-card-box {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0;
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    transition: all .1s ease-in-out;
+    font-size: var(--cds-body-compact-01-font-size, 0.875rem);
+    font-weight: var(--cds-body-compact-01-font-weight, 400);
+    line-height: var(--cds-body-compact-01-line-height, 1.28572);
+    letter-spacing: var(--cds-body-compact-01-letter-spacing, 0.16px);
+    --cds-layout-density-padding-inline-local: clamp(var(--cds-layout-density-padding-inline-min), var(--cds-layout-density-padding-inline, var(--cds-layout-density-padding-inline-normal)), var(--cds-layout-density-padding-inline-max));
+    position: relative;
+    display: block;
+    padding: var(--cds-layout-density-padding-inline-local);
+    background-color: var(--cds-layer);
+    min-block-size: 4rem;
+    min-inline-size: 8rem;
+    outline: 2px solid transparent;
+    outline-offset: -2px;  
+}
+
+.docs-card-box h3 {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+
+
