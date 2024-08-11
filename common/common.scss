@@ -578,8 +578,11 @@ font-size: var(--cds-heading-compact-01-font-size, 0.875rem);
 }  
 
 .discourse-tag {
-  color: var(--tertiary);
+  color: var(--primary-high);
   text-decoration: none;
   cursor: pointer;
   font-size: 12px;
+}
+. .d-header-icons .d-icon {
+  color: var(--secondary);
 }
