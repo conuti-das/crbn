@@ -560,10 +560,12 @@ span.latest-poster a {
     min-inline-size: 8rem;
     outline: 2px solid transparent;
     outline-offset: -2px;  
+    background-color: var(--primary-low);  
+    box-shadow: 0px;
 }
 
 .docs-card-box h3 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.3;
 }
 
