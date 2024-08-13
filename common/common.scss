@@ -159,7 +159,7 @@ tbody {
 
 .d-header {
   box-shadow: none;
-  border-bottom: 1px solid $primary-low;
+  border-bottom: 1px solid var(--header_background);
 }
 
 // Navs
