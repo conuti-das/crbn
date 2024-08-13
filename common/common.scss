@@ -38,6 +38,7 @@ $font-size-xxxl: 42px;
 body {
   font-size: $font-size-md; // 16px
   line-height: 1.5;
+  background-color: var(--secondary);
 }
 
 h1 {
