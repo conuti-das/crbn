@@ -646,11 +646,13 @@ thead {
     text-decoration: none;
     transition: background 70ms cubic-bezier(0,0,.38,.9), box-shadow 70ms cubic-bezier(0,0,.38,.9), border-color 70ms cubic-bezier(0,0,.38,.9), outline 70ms cubic-bezier(0,0,.38,.9);
     vertical-align: top;
+    cursor: pointer;
 }
 
 .btn-icon {
     padding-right: .9375rem;
     padding-left: .9375rem;
+    cursor: pointer;
 }  
 
 
