@@ -603,18 +603,18 @@ thead {
 }  
 
 .btn-primary {
-font-size: var(--cds-body-short-01-font-size, .875rem);
+    min-height: 2rem;
+    padding: calc(.375rem - 3px) 60px calc(.375rem - 3px) 12px;
+    font-size: var(--cds-body-short-01-font-size, .875rem);
     font-weight: var(--cds-body-short-01-font-weight, 400);
     line-height: var(--cds-body-short-01-line-height, 1.28572);
     letter-spacing: var(--cds-body-short-01-letter-spacing, .16px);
     position: relative;
     display: inline-flex;
     max-width: 20rem;
-    min-height: 3rem;
     flex-shrink: 0;
     align-items: center;
     justify-content: space-between;
-    padding: calc(.875rem - 3px) 63px calc(.875rem - 3px) 15px;
     margin: 0;
     border-radius: 0;
     cursor: pointer;
@@ -626,18 +626,18 @@ font-size: var(--cds-body-short-01-font-size, .875rem);
 }  
 
 .btn, .d-modal.json-schema-editor-modal .je-ready button, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add {
-font-size: var(--cds-body-short-01-font-size, .875rem);
+    min-height: 2rem;
+    padding: calc(.375rem - 3px) 60px calc(.375rem - 3px) 12px;
+    font-size: var(--cds-body-short-01-font-size, .875rem);
     font-weight: var(--cds-body-short-01-font-weight, 400);
     line-height: var(--cds-body-short-01-line-height, 1.28572);
     letter-spacing: var(--cds-body-short-01-letter-spacing, .16px);
     position: relative;
     display: inline-flex;
     max-width: 20rem;
-    min-height: 3rem;
     flex-shrink: 0;
     align-items: center;
     justify-content: space-between;
-    padding: calc(.875rem - 3px) 63px calc(.875rem - 3px) 15px;
     margin: 0;
     border-radius: 0;
     cursor: pointer;
